@@ -18,3 +18,11 @@ Según segmento del mercado (nº cores y precio, de menor a mayor):
   - Servidores gama media
   - Servidores gama alta
   - Supercomputadores
+
+#### Educación e investigación
+
+##### Clasificación Flynn:
+  - SISD
+  - MISD
+  - SIMD
+  - MIMD
