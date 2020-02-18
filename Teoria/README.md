@@ -2,7 +2,7 @@
 
 ## Lección 1
 
-## Leccion 2
+## Lección 2
 .
 .
 .
