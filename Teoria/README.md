@@ -21,7 +21,7 @@ Según segmento del mercado (nº cores y precio, de menor a mayor):
 
 #### Educación e investigación
 
-##### Clasificación Flynn:
+Clasificación Flynn:
   - SISD
   - MISD
   - SIMD
