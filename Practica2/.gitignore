@@ -1,0 +1,20 @@
+# .ccls
+.ccls-cache/*
+
+# bin
+private-clause
+shared-clause
+shared-clauseModificado
+private-clauseModificado
+private-clauseModificado3
+firstprivate-clause
+firstlastprivate-clause
+copyprivate-clause
+copyprivate-clauseModificado
+reduction-clause
+reduction-clauseModificado
+reduction-clauseModificado7
+pmv-secuencial
+pmv-OpenMP-a
+pmv-OpenMP-b
+pmv-OpenMP-reduction
