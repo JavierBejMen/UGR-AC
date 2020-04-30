@@ -1,6 +1,7 @@
 # .ccls
 .ccls-cache/*
 
+if-clause
 if-clauseModificado
 scheduled-clauseModificado
 scheduled-clauseModificado4
@@ -9,3 +10,6 @@ pmtv-secuencial
 pmtv-OpenMP
 pmm-secuencial
 pmm-OpenMP
+schedule-clause
+scheduled-clause
+scheduleg-clause
