@@ -6,7 +6,7 @@
  #define omp_get_thread_num() 0
 #endif
 main(int argc, char **argv) {
- int i, n=20,chunk,a[n],suma=0;
+ int i, n=16,chunk,a[n],suma=0;
  if(argc < 3) {
    fprintf(stderr,"\nFalta iteraciones y/o chunk \n");
    exit(-1);

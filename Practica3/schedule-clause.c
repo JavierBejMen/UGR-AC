@@ -6,7 +6,7 @@
  #define omp_get_thread_num() 0
 #endif
 main(int argc, char **argv) {
- int i, n = 7,chunk, a[n],suma=0;
+ int i, n = 16,chunk, a[n],suma=0;
  if(argc < 2) {
    fprintf(stderr,"\nFalta chunk \n");
    exit(-1);
