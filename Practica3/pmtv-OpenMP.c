@@ -3,8 +3,8 @@
 #include <omp.h>
 
 int main ( int argc, char **argv ){
-  if (argc < 4){
-    fprintf(stderr, "Uso: %s <N> <schedule> <chunk>\n", argv[0]);
+  if (argc < 2){
+    fprintf(stderr, "Uso: %s <N>\n", argv[0]);
     return EXIT_FAILURE;
 	}
 
@@ -32,7 +32,7 @@ int main ( int argc, char **argv ){
     }
 	}
 
-  #pragma omp for
+  #pragma omp parallel for
 	for (int i = 0; i < N; i++){
 		for (int j = 0; j < N; j++){
       if (i >= j){
@@ -69,9 +69,9 @@ int main ( int argc, char **argv ){
   double elapsed;
   start = omp_get_wtime();
 
-  #pragma omp for
+  #pragma omp parallel for schedule(runtime)
 	for (int i = 0; i < N; i++){
-		for (int j = i; j < N; j++){
+		for (int j = 0; j <= i; j++){
 			result[i] += matriz[i][j] * vector[j];
 		}
 	}
