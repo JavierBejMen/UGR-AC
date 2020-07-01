@@ -13,3 +13,5 @@ pmm-OpenMP
 schedule-clause
 scheduled-clause
 scheduleg-clause
+*.dat
+*.png

@@ -1,7 +1,7 @@
 TARGETS = if-clause if-clauseModificado schedule-clause scheduled-clause \
 scheduleg-clause scheduled-clauseModificado \
 scheduled-clauseModificado4 scheduled-clauseModificado5 pmtv-secuencial \
-pmtv-OpenMP pmm-secuencial pmm-OpenMP
+pmtv-OpenMP pmm-secuencial pmm-OpenMP gen_plot_data
 
 all: clean $(TARGETS)
 
@@ -17,3 +17,5 @@ all: clean $(TARGETS)
 
 clean:
 	rm $(TARGETS) || true
+	rm *.dat || true
+	rm *.png || true
